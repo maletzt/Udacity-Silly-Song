@@ -16,7 +16,7 @@ Click the 'Enter Your Name' field, type the name you wish the lyrics to be gener
 
 ## Maintainers
 
-@jarrodparkes
+@maletzt
 
 ## Citations
 
