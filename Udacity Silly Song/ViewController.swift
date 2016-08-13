@@ -49,7 +49,7 @@ class ViewController: UIViewController {
 
 func shortNameFromName(name: String) -> String {
     let lowercaseName = name.lowercaseString.stringByFoldingWithOptions(.DiacriticInsensitiveSearch, locale: nil)
-    let vowelSet = NSCharacterSet(charactersInString: "aeiou")
+    let vowelSet = NSCharacterSet(charactersInString: "AEIOUaeiou")
     
     if let firstVowelRange = name.rangeOfCharacterFromSet(vowelSet, options: .CaseInsensitiveSearch) {
         return lowercaseName.substringFromIndex(firstVowelRange.startIndex)
